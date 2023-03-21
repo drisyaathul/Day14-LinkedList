@@ -13,7 +13,13 @@ public class LinkedListMain {
             System.out.println("Element Inserted Successfully.");
         else
             System.out.println("Element is not Inserted!");
+        linkedList1.display();
 
+        Integer poppedData = linkedList1.pop();
+        if (poppedData == null)
+            System.out.println("LinkedList is Empty");
+        else
+        System.out.println("The Element popped is "+poppedData);
         linkedList1.display();
     }
 }
