@@ -6,9 +6,7 @@ public class Node <T>{
     Node<T> next;
 
     public Node() {
-
     }
-
     public Node(T data) {
         this.data = data;
     }
