@@ -44,7 +44,7 @@ public class LinkedListMain {
         else
             System.out.println("Element 30 is Found.");
         System.out.println("*****************************************");
-//insert 40 after 30 to the Linked List sequence of 56->30->70:
+//UC8:insert 40 after 30 to the Linked List sequence of 56->30->70;
       linkedList3.display();
 
       Boolean isInserted = linkedList3.insertAfter(30,40);
