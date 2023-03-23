@@ -65,8 +65,21 @@ public class LinkedListMain {
 
         linkedList3.display();
         linkedList3.size();
+        System.out.println("*****************************************");
+//UC10:create Ordered Linked List in ascending order of data entered in following sequence 56, 30, 40, and 70;
+        SortedLinkedList<Integer> sortedLinkedList = new SortedLinkedList<>();
+        sortedLinkedList.append(56);
+        sortedLinkedList.append(30);
+        sortedLinkedList.append(40);
+        sortedLinkedList.append(70);
+        sortedLinkedList.display();
+
+        System.out.println("LinkList in Ascending Order:");
+        sortedLinkedList.sort();
+        sortedLinkedList.display();
     }
 }
+
 
 
 
